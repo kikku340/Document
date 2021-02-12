@@ -1,0 +1,43 @@
+<mxfile host="65bd71144e" modified="2021-02-12T12:25:57.721Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.53.2 Chrome/87.0.4280.141 Electron/11.2.1 Safari/537.36" etag="0lJZsqbWaf7B3LPpyhy2" version="14.2.4" type="embed">
+    <diagram id="CjNgeSzEJvZ8frOq2iXA" name="ページ1">
+        <mxGraphModel dx="1060" dy="790" grid="1" gridSize="10" guides="1" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="20" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-200" y="240" width="680" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="無線LANルータ" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_N_128x128.png" parent="1" vertex="1">
+                    <mxGeometry x="180" y="260" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="ハウス1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="-40" y="440" width="120" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="ハウス2" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-180" y="440" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="ハウス N..." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-180" y="500" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Wi-Fi" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;startWidth=37.224489795918366;startSize=8.857142857142858;endWidth=37.224489795918366;endSize=8.857142857142858;width=62.857142857142854;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="160" y="330" as="sourcePoint"/>
+                        <mxPoint x="70" y="420" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="巻上げシステム" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/media_converters/Media_Converter_Standalone.svg;" parent="1" vertex="1">
+                    <mxGeometry x="-8.629999999999999" y="480" width="57.25" height="46.71" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="サーバ" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="440" width="63.11" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Ether" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;startWidth=37.224489795918366;startSize=8.857142857142858;endWidth=37.224489795918366;endSize=8.857142857142858;width=62.857142857142854;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="300" y="330" as="sourcePoint"/>
+                        <mxPoint x="400" y="430" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
