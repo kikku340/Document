@@ -1,0 +1,70 @@
+<mxfile host="65bd71144e" modified="2021-02-25T21:43:49.738Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.53.2 Chrome/87.0.4280.141 Electron/11.2.1 Safari/537.36" etag="LNAT7cWzsHvK1t980ITC" version="14.2.4" type="embed" pages="2">
+    <diagram id="X24MKBxWG5-5E21Ue0_z" name="電文フォーマット">
+        <mxGraphModel dx="824" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="LJh92NJpiyecp9dMBpDl-0"/>
+                <mxCell id="LJh92NJpiyecp9dMBpDl-1" parent="LJh92NJpiyecp9dMBpDl-0"/>
+                <mxCell id="DY4u31npjVxEvO2-JRsm-0" value="STX" style="rounded=0;whiteSpace=wrap;html=1;" parent="LJh92NJpiyecp9dMBpDl-1" vertex="1">
+                    <mxGeometry x="40" y="320" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="DY4u31npjVxEvO2-JRsm-1" value="コマンド" style="rounded=0;whiteSpace=wrap;html=1;" parent="LJh92NJpiyecp9dMBpDl-1" vertex="1">
+                    <mxGeometry x="360" y="320" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="DY4u31npjVxEvO2-JRsm-2" value="データサイズ" style="rounded=0;whiteSpace=wrap;html=1;" parent="LJh92NJpiyecp9dMBpDl-1" vertex="1">
+                    <mxGeometry x="440" y="320" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="DY4u31npjVxEvO2-JRsm-3" value="データ部" style="rounded=0;whiteSpace=wrap;html=1;" parent="LJh92NJpiyecp9dMBpDl-1" vertex="1">
+                    <mxGeometry x="520" y="320" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="DY4u31npjVxEvO2-JRsm-4" value="チェックサム" style="rounded=0;whiteSpace=wrap;html=1;" parent="LJh92NJpiyecp9dMBpDl-1" vertex="1">
+                    <mxGeometry x="680" y="320" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="DY4u31npjVxEvO2-JRsm-5" value="ETX" style="rounded=0;whiteSpace=wrap;html=1;" parent="LJh92NJpiyecp9dMBpDl-1" vertex="1">
+                    <mxGeometry x="600" y="320" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="0" value="送信元ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LJh92NJpiyecp9dMBpDl-1">
+                    <mxGeometry x="120" y="320" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="1" value="電文番号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LJh92NJpiyecp9dMBpDl-1">
+                    <mxGeometry x="280" y="320" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="送信先ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LJh92NJpiyecp9dMBpDl-1">
+                    <mxGeometry x="200" y="320" width="80" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="DlZsZiLB8Cw0Pm3X5Abe" name="初回通信(Request)">
+        &#xa;        &#xa;&#xa;
+        <mxGraphModel dx="565" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            &#xa;            &#xa;&#xa;
+            <root>
+                &#xa;                &#xa;&#xa;
+                <mxCell id="0"/>
+                &#xa;                &#xa;&#xa;
+                <mxCell id="1" parent="0"/>
+                &#xa;                &#xa;&#xa;
+                <mxCell id="2" value="ハウスNo" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    &#xa;                    &#xa;&#xa;
+                    <mxGeometry x="120" y="320" width="80" height="40" as="geometry"/>
+                    &#xa;                    &#xa;&#xa;
+                </mxCell>
+                &#xa;                &#xa;&#xa;
+                <mxCell id="3" value="ハウス内ID" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    &#xa;                    &#xa;&#xa;
+                    <mxGeometry x="200" y="320" width="80" height="40" as="geometry"/>
+                    &#xa;                    &#xa;&#xa;
+                </mxCell>
+                &#xa;                &#xa;&#xa;
+                <mxCell id="5" value="クライアント&lt;br&gt;種別ID" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    &#xa;                    &#xa;&#xa;
+                    <mxGeometry x="280" y="320" width="80" height="40" as="geometry"/>
+                    &#xa;                    &#xa;&#xa;
+                </mxCell>
+                &#xa;                &#xa;&#xa;
+            </root>
+            &#xa;            &#xa;&#xa;
+        </mxGraphModel>
+        &#xa;        &#xa;&#xa;
+    </diagram>
+</mxfile>
