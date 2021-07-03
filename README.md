@@ -12,3 +12,4 @@ wikiの編集は変更がわかるようコメントを付けてコミットし�
 
 [Home](https://github.com/Kyokko-OB-Team/Document/wiki)
 - [RaspberryPi OSのカスタムイメージについて](https://github.com/Kyokko-OB-Team/Document/wiki/raspberryPiOS_customImage_doc)
+- [RaspberryPi Zero WでUARTを使う](https://github.com/Kyokko-OB-Team/Document/wiki/raspberrypi_zero_enable_uart)
